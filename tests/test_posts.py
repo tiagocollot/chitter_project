@@ -1,9 +1,9 @@
-from lib.posts import Post
+from lib.post import Post
 
 """
 Posts constructs with an id, content, post_time amnd user_id
 """
-def test_peeps_constructs():
+def test_posts_constructs():
     post = Post(1, 'Hello, world!', '2023-05-19 09:00:00', 1)
     assert post.id == 1
     assert post.content == 'Hello, world!'
