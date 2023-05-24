@@ -1,13 +1,10 @@
-# missing conftest test folder
-# missing database Connection lib folder
-
 import os
 from flask import g
 import psycopg
 from psycopg.rows import dict_row
 
 
-# This class helps us interact with the database.
+# This class helps us interact with the database.s
 # It wraps the underlying psycopg library that we are using.
 
 # If the below seems too complex right now, that's OK.
