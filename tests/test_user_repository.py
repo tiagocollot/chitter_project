@@ -17,7 +17,7 @@ def test_get_all_users(db_connection): # See conftest.py to learn what `db_conne
     ]
 
 """
-When we call ArtistRepository#create
+When we call UserRepository#create
 We get a new record in the database.
 """
 def test_create_user(db_connection):
