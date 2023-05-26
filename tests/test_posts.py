@@ -24,5 +24,5 @@ def test_posts_are_equal():
 We can format posts to strings nicely
 """
 def test_post_format_nicely():
-    post = Post(1, 'Hello, world!', '2023-05-19 09:00:00', 1)
-    assert str(post) == "Post(1, Hello, world!, 2023-05-19 09:00:00, 1)"
+    post = Post(1, 'Hello, world!', '2023-05-19 09:00:00', 1, 'JohnDoe')
+    assert str(post) == "Post(1, Hello, world!, 2023-05-19 09:00:00, 1, JohnDoe)"
