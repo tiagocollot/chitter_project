@@ -27,6 +27,7 @@ This is a starter project for you to use to start this project.
 
 # Create the database
 ; createdb chitter_project
+; createdb chitter_project_test
 
 # Open lib/database_connection.py and change the database name to chitter_project
 ; open lib/database_connection.py
