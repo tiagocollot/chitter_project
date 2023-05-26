@@ -6,11 +6,11 @@ class PostRepository():
         self._connection = connection
         
     def all(self):
-        rows = self._connection.execute('SELECT * FROM posts')
+        rows = self._connection.execute('SELECT * FROM users JOIN posts ON posts.user_id = users.id')
         posts = []
         for row in rows:
             post_time = datetime.strftime(row["post_time"], "%Y-%m-%d %H:%M:%S")
-            item = Post(row["id"], row["content"], post_time, row["user_id"])
+            item = Post(row["id"], row["content"], post_time, row["user_id"], row["username"])
             posts.append(item)
         return posts
     

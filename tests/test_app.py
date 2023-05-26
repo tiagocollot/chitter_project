@@ -26,5 +26,5 @@ def test_get_single_post(page, test_web_address, db_connection):
     ])
     expect(paragraph_tags).to_have_text([
         'Post time: 2023-05-19 09:00:00',
-        "Artist: JohnDoe"
+        'Artist: JohnDoe'
     ]) 

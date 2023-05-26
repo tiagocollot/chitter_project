@@ -13,7 +13,7 @@
 {% for post in posts %}
     <article>
         <h2>
-           <a href="/posts/{{post.id}}">{{ post.content }}</a>
+          {{ post.author }} <a href="/posts/{{post.id}}">{{ post.content }}</a>
         </h2>
         <p>Post time: {{ post.post_time }}</p>
     </article>
