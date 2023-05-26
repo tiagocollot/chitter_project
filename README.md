@@ -11,6 +11,7 @@ This is a starter project for you to use to start this project.
 
 # Or, if you don't have SSH keys set up
 ; git clone https://github.com/tiagocollot/chitter_project.git chitter_project
+
 # Enter the directory
 ; cd chitter_project
 
