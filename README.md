@@ -7,10 +7,10 @@ This is a starter project for you to use to start this project.
 
 ```shell
 # Clone the repository to your local machine
-; git clone git@github.com:tiagocollot/chitter_project.git
+; git clone git@github.com:tiagocollot/chitter_project.git chitter_project
 
 # Or, if you don't have SSH keys set up
-; git clone https://github.com/tiagocollot/chitter_project.git
+; git clone https://github.com/tiagocollot/chitter_project.git chitter_project
 # Enter the directory
 ; cd chitter_project
 
