@@ -22,7 +22,6 @@ This is a starter project for you to use to start this project.
 ; pipenv install flask
 ; pipenv install psycopg
 
-
 # Activate the virtual environment
 ; pipenv shell
 
