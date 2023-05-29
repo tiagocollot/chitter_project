@@ -17,10 +17,6 @@ This is a starter project for you to use to start this project.
 
 # Install dependencies and set up the virtual environment
 ; pipenv install
-; pipenv install pytest
-; pipenv install playwright
-; pipenv install flask
-; pipenv install psycopg
 
 # Activate the virtual environment
 ; pipenv shell
